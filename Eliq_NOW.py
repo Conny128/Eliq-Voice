@@ -31,7 +31,7 @@ print (max_tid)
 for i in range (offset_tid):
     print(i)
 
-    response = requests.get ("https://my.eliq.io/api/datanow?accesstoken=745109ac4bed4c318ff47b06e5285f95&channelid=32217")
+    response = requests.get ("https://my.eliq.io/api/datanow?accesstoken=xxxxxxxxxxxxxxxxxxxxxx&channelid=yyyyyy")
     
     Eliq_just_NOW_string = str (response.json())
     #print (Eliq_just_NOW_string)
