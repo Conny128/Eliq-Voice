@@ -10,10 +10,6 @@ import win32com.client as wincl
 speak = wincl.Dispatch("SAPI.SpVoice")
 speak.Speak("Hello World")
 
-
-
-
-Eliq_list = []
 power_value = 0
 power_value_int = 0
 prompt=0
