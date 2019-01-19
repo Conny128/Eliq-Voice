@@ -1,9 +1,6 @@
 import requests
 import json
 
-#from gtts import gTTS
-#import os
-#gTTS(text='Good morning', lang='en')
 
 import win32com.client as wincl
 speak = wincl.Dispatch("SAPI.SpVoice")

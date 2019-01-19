@@ -1,9 +1,6 @@
 import requests
 import json
 
-#from gtts import gTTS
-#import os
-#gTTS(text='Good morning', lang='en')
 
 import pyttsx
 engine = pyttsx.init()
